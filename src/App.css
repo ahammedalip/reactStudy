@@ -1,0 +1,105 @@
+.add-card-modal {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-card-header h2 {
+    margin: 0;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .tabs button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .tabs button.active {
+    font-weight: bold;
+  }
+  
+  .tabs button[disabled] {
+    color: grey;
+    cursor: not-allowed;
+  }
+  
+  .coming-soon {
+    font-size: 12px;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .primary-card {
+    display: flex;
+    align-items: center;
+  }
+  
+  .primary-card input {
+    margin-right: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .save-button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .close-button {
+    background: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
